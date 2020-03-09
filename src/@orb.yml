@@ -2,14 +2,8 @@ version: 2.1
 
 description: |
   Perform Neocortix Last-Mile Load Testing for your projects, using our global network of mobile devices.
-  See https://cloud.neocortix.com and https://github.com/neocortix/cci_loadtest for more info.
 
-  Get an Auth Token by following these steps:
-  - Go to cloud.neocortix.com
-  - Sign up for a Neocortix Cloud Services account with your email address.
-      - You will be able to run one small, free Load Test in the Free Tier (with 2 devices, up to 10 minutes long) without providing any payment method.  Or you can run two small free Load Tests with one device each.
-      - To continue with free Load Tests in the Free Tier (up to 10 devices, up to 10 minutes long), please provide a Payment Method at Account / Billing / Payment Methods, which will not be charged while you use your 100 free hours.
-      - To run Large Load Tests (up to 800 devices, any duration), please provide a Payment Method as above, and then go to Account / Billing and upgrade from Free Tier to Paid Tier.
-  - Go to Account / Profile.  Click on Auth Tokens.
-  - Click on New Token.  A new Auth Token will be generated for you.  You can copy that Auth Token to the clipboard and use it as the value of $NCS_AUTH_TOKEN in the steps below.
+display:
+  home_url: https://cloud.neocortix.com
+  source_url: https://github.com/neocortix/cci_loadtest
 
